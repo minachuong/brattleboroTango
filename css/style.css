@@ -1,10 +1,13 @@
-/*color scheme
+/*
+color scheme
 terra cotta: #DF726B
 flax: #E6CE80
 umber: #64523F
 weldon blue: #7F9CAC
-silver: #C1C7BA*/
-
+silver: #C1C7BA
+font-family: 'Open Sans Condensed', sans-serif;
+font-family: 'Satisfy', cursive;
+*/
 
 div.headline {
   padding: 0px;
@@ -15,12 +18,25 @@ nav.navbar.navbar-inverse.navbar-fixed-top {
 .navbar-inverse .navbar-brand {
   color: #FFF;
 }
+.
 .navbar-inverse .navbar-nav>li>a {
-  padding: 25px 15px;
+  padding: 15px 15px;
   color: #FFF;
+  font: 20px 'Open Sans Condensed', sans-serif;
 }
 .navbar-brand {
+  color: #FFF;
+  font-family: 'Satisfy', cursive;
   height: 70px;
   padding: 25px 15px;
-  font-size: 18px;
+  font-size: 28px;
+}
+
+.carousel-content {
+  position: absolute;
+  bottom: 50%;
+  left: 25%;
+  z-index: 20;
+  color: #000;
+  text-shadow: 0 1px 2px rgba(0,0,0,.6);
 }
