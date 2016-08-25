@@ -15,13 +15,19 @@ div.headline {
 nav.navbar.navbar-inverse.navbar-fixed-top {
   background-color: #000;
 }
-.navbar-inverse .navbar-brand {
+.navbar-inverse a.navbar-brand {
   color: #FFF;
+}
+.navbar-inverse a.navbar-brand:hover {
+  color: #DF726B;
 }
 .navbar-inverse .navbar-nav>li>a {
   padding: 20px 15px;
   color: #FFF;
   font: 20px 'Open Sans Condensed', sans-serif;
+}
+.navbar-inverse .navbar-nav>li>a:hover {
+  color: #7F9CAC;
 }
 .navbar-brand {
   color: #FFF;
@@ -35,17 +41,47 @@ nav.navbar.navbar-inverse.navbar-fixed-top {
 }
 .carousel-content {
   position: absolute;
-  bottom: 50%;
-  left: 25%;
+  /*bottom: 50%;*/
+  /*left: 25%;*/
   z-index: 20;
   color: #000;
-  text-shadow: 0 1px 2px; rgba(0,0,0,.6);
 }
+
 h3 {
-  font: 24px 'Satisfy', cursive;
+  font: 40px 'Satisfy', cursive;
   color: #FFF;
 }
 h4 {
-  font: 20px 'Open Sans Condensed', sans-serif;
+  font: 28px 'Open Sans Condensed', sans-serif;
   color: #FFF;
+}
+.slide1 {
+  left: 60%;
+  bottom: 50%;
+  text-shadow: 0 1px 2px; rgba(0,0,0,.6);
+}
+.slide2 {
+  left: 20%;
+  top: 50%;
+  text-shadow: 0 1px 2px; rgba(0,0,0,1);
+}
+.slide4 {
+  left: 60%;
+  bottom: 20%;
+  text-shadow: 0 1px 2px; rgba(0,0,0,.6);
+}
+.text-right {
+  text-align: right;
+}
+.text-left {
+  text-align: left;
+}
+.featurette-heading {
+    font-size: 50px;
+}
+a:hover {
+  text-decoration: none;
+}
+p, ul,li {
+  font-size: 20px;
 }
