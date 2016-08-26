@@ -67,7 +67,7 @@ h4 {
   text-shadow: 0 1px 2px; rgba(0,0,0,1);
 }
 .slide4 {
-  left: 55%;
+  left: 40%;
   bottom: 20%;
   text-shadow: 0 1px 2px; rgba(0,0,0,.6);
 }
@@ -124,10 +124,9 @@ h4.slide4-text {
   font: 20px 'Open Sans Condensed', sans-serif;
 }
 
-
 @media(max-width:992px) {
   .slide1 {
-    left: 50%;
+    left: 40%;
     bottom: 45%;
   }
   .slide2 {
@@ -136,7 +135,6 @@ h4.slide4-text {
     text-shadow: 0 1px 2px; rgba(0,0,0,1);
   }
   .slide4 {
-    left: 55%;
     bottom: 25%;
   }
   .slide4-text {
@@ -154,9 +152,6 @@ h4.slide4-text {
 @media(max-width:768px) {
   .slide2 {
     top: 20%;
-  }
-  .slide4 {
-    left: 45%;
   }
   .featurette-image-3 {
       max-width: 100%;
@@ -187,8 +182,7 @@ h4.slide4-text {
     top: 35%;
   }
   .slide4 {
-    top: 40%;
-    left: 40%;
+    top: 45%;
   }
   .slide4-text {
     padding: 0px;
@@ -227,6 +221,5 @@ h4.slide4-text {
 @media(max-width:320px) {
   .slide4 {
     top: 30%;
-    left: 40%;
   }
 }
