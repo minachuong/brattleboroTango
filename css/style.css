@@ -6,6 +6,7 @@ umber: #64523F
 weldon blue: #7F9CAC
 silver: #C1C7BA
 font-family: 'Open Sans Condensed', sans-serif;
+font-family: 'Open Sans', sans-serif;
 font-family: 'Satisfy', cursive;
 */
 
@@ -87,7 +88,7 @@ a:hover {
   text-decoration: none;
 }
 p,ul,li {
-  font-size: 20px;
+  font: 20px 'Open Sans', sans-serif;
 }
 
 /* Responsive Google iFrame */
@@ -111,12 +112,28 @@ p,ul,li {
 }
 
 footer > div.row > div.col-lg-12 > p {
-  font-size: 18px;
+  font: 18px 'Open Sans Condensed', sans-serif;
 }
+
+/*Google Calendar styling*/
+/*div.view-cap, div.view-cap.t2-embed, div.view-container-border {
+   background-color: #7F9CAC;
+}*/
+
+div#calendarContainer1.view-container-border {
+  background-color: #7F9CAC;
+
+}
+
+
+
+
+
+
 
 @media(max-width:1200px) {
 }
-@media(max-width:995px) {
+@media(max-width:992px) {
   .slide1 {
     top: 0%;
   }
@@ -155,9 +172,7 @@ footer > div.row > div.col-lg-12 > p {
   }
 
 }
-@media(max-width:640px) {
-}
-@media(max-width:375px) {
+@media(max-width:376px) {
   h3 {
     font-size: 20px;
     margin: 2px 0px;
