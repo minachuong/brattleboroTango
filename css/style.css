@@ -91,6 +91,9 @@ p,ul,li {
 li {
   font-weight: 100;
 }
+.mobile-quote {
+  display: none;
+}
 
 /* Responsive Google iFrame */
 
@@ -121,6 +124,7 @@ footer > div.row > div.col-lg-12 > p {
 h4.slide4-text {
   font: 20px 'Open Sans Condensed', sans-serif;
 }
+
 
 @media(max-width:992px) {
   .slide1 {
@@ -171,6 +175,14 @@ h4.slide4-text {
   }
   h4.slide4-text {
     display: none;
+  }
+  .mobile-quote {
+    display: block;
+  }
+  .quote-display {
+    background-image: url("../img/quotation-marks-left02.png");
+    background-repeat: no-repeat;
+    padding: 25px;
   }
   .slide1 {
     top: 10%;
